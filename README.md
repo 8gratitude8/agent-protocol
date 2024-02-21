@@ -2,14 +2,14 @@
 
 This is a modern web application built using the Next.js framework.
 
-## Tech Stack
+## Tech stack
 
-- Next.js: A framework for server-side rendering and routing.
-- TypeScript: A superset of JavaScript that adds static types.
+- Next.js framework for server-side rendering and routing
+- TypeScript for type checking and improved developer experience
 
 ## Features
 
-- Server-side rendering for improved performance.
+- Server-side rendering for improved performance
 
 ## Getting Started
 
@@ -34,4 +34,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Enjoy building your Next.js app!
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

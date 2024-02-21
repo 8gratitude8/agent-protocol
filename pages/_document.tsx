@@ -1,7 +1,8 @@
-import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
+```tsx
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
+  static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }
@@ -9,9 +10,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <link rel="shortcut icon" href="/favicon.ico" />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
@@ -22,3 +21,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument
+```
